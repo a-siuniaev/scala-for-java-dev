@@ -1,8 +1,7 @@
 package section6.lesson49
 
 //Different ways to define Cartesian product of 2 sets
-object CartesianProduct extends App {
-
+object CartesianProductDemo extends App {
   // for = imperative Java style
   def prod0[A, B](set0: Set[A], set1: Set[B]): Set[(A, B)] = {
     var result = Set[(A, B)]()

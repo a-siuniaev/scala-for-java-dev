@@ -1,7 +1,7 @@
 package section6.lesson49
 
 // Math: Ordered Pair or N-tuple ~ Scala: Tuple
-object CartesianProduct1 extends App {
+object TupleDemo extends App {
     val x: (Int, String) = (0, "A")
 
     println(x._1)
